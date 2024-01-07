@@ -2,5 +2,5 @@
 let evaluatedText = document.getElementById("evaluatedText")
 evaluatedText.addEventListener("input", () => {
 	let count = (evaluatedText.value).length;
-	document.getElementById("letterCount").textContent = ${count};
+	document.getElementById("letterCount").textContent = `${count}`;
 })
